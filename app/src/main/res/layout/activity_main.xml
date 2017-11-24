@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/some_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="#987"
+        android:rotation="90"
+        android:text="some text that should be wrapped properly" />
+
+    <View
+        android:id="@+id/some_image_later"
+        android:layout_width="5dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/some_text"
+        android:layout_alignRight="@+id/some_text"
+        android:layout_centerVertical="true"
+        android:background="#789" />
+
+</RelativeLayout>
